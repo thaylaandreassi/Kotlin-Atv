@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<!--
+Tanto a ScrollView quanto a HorizontalScrollView
+precisam ter dentro delas uma LinearLayout
+-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <!--
+ScrollView -> indica que seu conteúdo terá um scroll vertical, se necessário
+    -->
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<!--
+O nome da imagem deve seguir a regras de nome de variável.
+Ex: não começar com números, não pode ter hifen etc
+
+Gif animado NÃO aparace animado
+
+Só funciona com imagens
+-->
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/morango"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_boas_vindas"
+            android:textSize="50sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Força"
+            android:textSize="150sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fé"
+            android:layout_marginTop="200dp"
+            android:textSize="150sp" />
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+<!--
+HorizontalScrollView -> indica que seu conteúdo terá um scroll horizontal, se necessário
+-->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_boa_noite"
+                android:textSize="50sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Força"
+                android:textSize="150sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fé"
+                android:layout_marginTop="200dp"
+                android:textSize="150sp" />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

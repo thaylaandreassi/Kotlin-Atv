@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Projeto03" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="materialButtonStyle">@style/TamanhoTextoPadrao</item>
+    </style>
+
+    <style name="Theme.Projeto03" parent="Base.Theme.Projeto03" />
+
+    <style name="Destaque">
+        <item name="android:textColor">#E6FF00</item>
+        <item name="android:background">#050325</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="TamanhoTextoPadrao" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textSize">35sp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--
+    LinearLayout -> Por padrão os itens dentro dele ficam lado a lado
+                    (a direita do anterior)
+
+                    Para mudar isso, usamos android:orientation="vertical"
+
+    wrap_content -> indica que o tamanho será automático
+
+    match -> assume o conteúdo de onde está (tela inteira e afins)
+    -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="É nois no Android"
+            android:textSize="35sp"
+            android:textColor="#E91E63"
+            android:layout_marginBottom="30dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Segunda frase"
+            android:textSize="35sp"
+            android:textColor="#E91E63"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="Terceira frase"
+            android:textSize="35sp"
+            android:textColor="#E91E63"
+            android:background="#000000"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frase A"
+                android:textSize="30sp"
+                android:background="#AA9955"
+                android:layout_weight="10"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frase B"
+                android:textSize="30sp"
+                android:background="#AA9955"
+                android:layout_weight="10"
+                />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clica nimim"
+            android:textSize="40sp"
+            android:layout_marginTop="50dp"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Digite algo"
+            android:textSize="30sp"
+            android:inputType="number"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

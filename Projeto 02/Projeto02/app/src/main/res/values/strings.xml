@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Projeto 02</string>
+    <string name="txt_boas_vindas">Sejam bem vindos</string>
+    <string name="txt_boa_noite">Boa noite!</string>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AppParaProva</string>
+    <string name="txt_oferece">O que oferecemos</string>
+    <string name="txt_fruta">Frutas</string>
+    <string name="txt_verdura">Verduras</string>
+    <string name="txt_tempero">Temperos</string>
+    <string name="txt_numero">Cadastre seu celular p/ receber ofertas</string>
+    <string name="txt_produtos">Alguns de nossos produtos</string>
+    <string name="txt_oferta">Faltam 3 horas e 5 minutos p/ o fim da promoção</string>
+
+
+</resources>
