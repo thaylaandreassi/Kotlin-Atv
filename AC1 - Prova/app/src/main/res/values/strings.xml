@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ProvaAC1</string>
+
+    <string name="titulo1">Porquinho Inteligente</string>
+    <string name="txt_financeira">Meta financeira</string>
+    <string name="txt_poupanca">Valor poupado no mês</string>
+    <string name="txt_botao1">Calcular</string>
+    <string name="txt_botao2">Refazer</string>
+    <string name="txt_investimento">Tipos de Investimentos</string>
+    <string name="txt_renda">RENDA FIXA</string>
+    <string name="txt_acao">AÇÕES</string>
+    <string name="txt_fis">FIIS</string>
+
+    <string name="txt_acoesValorizadas">Ações que + valorizaram hoje</string>
+    <string name="txt_pet">PETR4 - 2%</string>
+    <string name="txt_cpl">CPLE6 - 1.%</string>
+    <string name="txt_tae">TAEE11 - 1%</string>
+    <string name="txt_weg">WEGE3 - 1%</string>
+
+
+
+
+</resources>
